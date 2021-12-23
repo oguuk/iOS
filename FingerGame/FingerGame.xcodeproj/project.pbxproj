@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96014C3E26A003F800B85A09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96014C3D26A003F800B85A09 /* AppDelegate.swift */; };
+		96014C4026A003F800B85A09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96014C3F26A003F800B85A09 /* SceneDelegate.swift */; };
+		96014C4226A003F800B85A09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96014C4126A003F800B85A09 /* ViewController.swift */; };
+		96014C4526A003F800B85A09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96014C4326A003F800B85A09 /* Main.storyboard */; };
+		96014C4726A003F900B85A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96014C4626A003F900B85A09 /* Assets.xcassets */; };
+		96014C4A26A003F900B85A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96014C4826A003F900B85A09 /* LaunchScreen.storyboard */; };
+		96014C5226A00D1700B85A09 /* FingerStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96014C5126A00D1700B85A09 /* FingerStartViewController.swift */; };
+		96014C5426A00D2600B85A09 /* FingerGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96014C5326A00D2600B85A09 /* FingerGameViewController.swift */; };
+		96014C5626A0110B00B85A09 /* FingerGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96014C5526A0110B00B85A09 /* FingerGameView.swift */; };
+		96014C5826A08B5A00B85A09 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96014C5726A08B5A00B85A09 /* GoogleService-Info.plist */; };
+		E3D286C8653383B2371238E5 /* Pods_FingerGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599F15A41D9ADD6BE05F1C4E /* Pods_FingerGame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		599F15A41D9ADD6BE05F1C4E /* Pods_FingerGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FingerGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96014C3A26A003F800B85A09 /* FingerGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FingerGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96014C3D26A003F800B85A09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96014C3F26A003F800B85A09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		96014C4126A003F800B85A09 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96014C4426A003F800B85A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96014C4626A003F900B85A09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96014C4926A003F900B85A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96014C4B26A003F900B85A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96014C5126A00D1700B85A09 /* FingerStartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerStartViewController.swift; sourceTree = "<group>"; };
+		96014C5326A00D2600B85A09 /* FingerGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerGameViewController.swift; sourceTree = "<group>"; };
+		96014C5526A0110B00B85A09 /* FingerGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerGameView.swift; sourceTree = "<group>"; };
+		96014C5726A08B5A00B85A09 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BE401F6B190463BB11B8A7EA /* Pods-FingerGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerGame.release.xcconfig"; path = "Target Support Files/Pods-FingerGame/Pods-FingerGame.release.xcconfig"; sourceTree = "<group>"; };
+		BF6160B51C3BE5A10682F49C /* Pods-FingerGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FingerGame.debug.xcconfig"; path = "Target Support Files/Pods-FingerGame/Pods-FingerGame.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96014C3726A003F800B85A09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D286C8653383B2371238E5 /* Pods_FingerGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		057A0A6C795A89435B180AFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				599F15A41D9ADD6BE05F1C4E /* Pods_FingerGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96014C3126A003F800B85A09 = {
+			isa = PBXGroup;
+			children = (
+				96014C3C26A003F800B85A09 /* FingerGame */,
+				96014C5726A08B5A00B85A09 /* GoogleService-Info.plist */,
+				96014C3B26A003F800B85A09 /* Products */,
+				9F60B6582853C58855219F54 /* Pods */,
+				057A0A6C795A89435B180AFC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96014C3B26A003F800B85A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96014C3A26A003F800B85A09 /* FingerGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96014C3C26A003F800B85A09 /* FingerGame */ = {
+			isa = PBXGroup;
+			children = (
+				96014C3D26A003F800B85A09 /* AppDelegate.swift */,
+				96014C3F26A003F800B85A09 /* SceneDelegate.swift */,
+				96014C4126A003F800B85A09 /* ViewController.swift */,
+				96014C4326A003F800B85A09 /* Main.storyboard */,
+				96014C4626A003F900B85A09 /* Assets.xcassets */,
+				96014C4826A003F900B85A09 /* LaunchScreen.storyboard */,
+				96014C4B26A003F900B85A09 /* Info.plist */,
+				96014C5126A00D1700B85A09 /* FingerStartViewController.swift */,
+				96014C5326A00D2600B85A09 /* FingerGameViewController.swift */,
+				96014C5526A0110B00B85A09 /* FingerGameView.swift */,
+			);
+			path = FingerGame;
+			sourceTree = "<group>";
+		};
+		9F60B6582853C58855219F54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF6160B51C3BE5A10682F49C /* Pods-FingerGame.debug.xcconfig */,
+				BE401F6B190463BB11B8A7EA /* Pods-FingerGame.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96014C3926A003F800B85A09 /* FingerGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96014C4E26A003F900B85A09 /* Build configuration list for PBXNativeTarget "FingerGame" */;
+			buildPhases = (
+				919AC4DE2EBC54F57A0A44EC /* [CP] Check Pods Manifest.lock */,
+				96014C3626A003F800B85A09 /* Sources */,
+				96014C3726A003F800B85A09 /* Frameworks */,
+				96014C3826A003F800B85A09 /* Resources */,
+				31A52CA659DF07C88C45EFF1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FingerGame;
+			productName = FingerGame;
+			productReference = 96014C3A26A003F800B85A09 /* FingerGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96014C3226A003F800B85A09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					96014C3926A003F800B85A09 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 96014C3526A003F800B85A09 /* Build configuration list for PBXProject "FingerGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96014C3126A003F800B85A09;
+			productRefGroup = 96014C3B26A003F800B85A09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96014C3926A003F800B85A09 /* FingerGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96014C3826A003F800B85A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96014C4A26A003F900B85A09 /* LaunchScreen.storyboard in Resources */,
+				96014C5826A08B5A00B85A09 /* GoogleService-Info.plist in Resources */,
+				96014C4726A003F900B85A09 /* Assets.xcassets in Resources */,
+				96014C4526A003F800B85A09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31A52CA659DF07C88C45EFF1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FingerGame/Pods-FingerGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FingerGame/Pods-FingerGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FingerGame/Pods-FingerGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		919AC4DE2EBC54F57A0A44EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FingerGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96014C3626A003F800B85A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96014C5426A00D2600B85A09 /* FingerGameViewController.swift in Sources */,
+				96014C4226A003F800B85A09 /* ViewController.swift in Sources */,
+				96014C3E26A003F800B85A09 /* AppDelegate.swift in Sources */,
+				96014C5626A0110B00B85A09 /* FingerGameView.swift in Sources */,
+				96014C5226A00D1700B85A09 /* FingerStartViewController.swift in Sources */,
+				96014C4026A003F800B85A09 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		96014C4326A003F800B85A09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96014C4426A003F800B85A09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96014C4826A003F900B85A09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96014C4926A003F900B85A09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96014C4C26A003F900B85A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96014C4D26A003F900B85A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96014C4F26A003F900B85A09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF6160B51C3BE5A10682F49C /* Pods-FingerGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79928L8PF;
+				INFOPLIST_FILE = FingerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.FingerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		96014C5026A003F900B85A09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE401F6B190463BB11B8A7EA /* Pods-FingerGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M79928L8PF;
+				INFOPLIST_FILE = FingerGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dangdang.FingerGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96014C3526A003F800B85A09 /* Build configuration list for PBXProject "FingerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96014C4C26A003F900B85A09 /* Debug */,
+				96014C4D26A003F900B85A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96014C4E26A003F900B85A09 /* Build configuration list for PBXNativeTarget "FingerGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96014C4F26A003F900B85A09 /* Debug */,
+				96014C5026A003F900B85A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96014C3226A003F800B85A09 /* Project object */;
+}

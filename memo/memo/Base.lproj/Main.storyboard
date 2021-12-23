@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vhH-I5-pKz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--작성하기-->
+        <scene sceneID="AoN-wO-h6S">
+            <objects>
+                <tableViewController id="Mfc-u8-0To" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="VhL-tY-E2y">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="vit-PS-a16">
+                                <rect key="frame" x="0.0" y="24.5" width="414" height="43.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vit-PS-a16" id="ZVd-9D-oLK">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Mfc-u8-0To" id="hvr-ra-D7K"/>
+                            <outlet property="delegate" destination="Mfc-u8-0To" id="NGG-NK-Yyl"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="작성하기" id="lQk-6B-4fs">
+                        <barButtonItem key="backBarButtonItem" title="뒤로" id="VwK-El-PzJ"/>
+                        <barButtonItem key="rightBarButtonItem" image="pencil" catalog="system" id="Egr-qZ-Nz7">
+                            <connections>
+                                <segue destination="jFr-lI-kCC" kind="show" id="9GG-zq-xIa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3as-ep-baw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="867" y="224"/>
+        </scene>
+        <!--작성하기-->
+        <scene sceneID="jyt-AB-ag8">
+            <objects>
+                <viewController id="jFr-lI-kCC" customClass="MEmoWriteViewController" customModule="memo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K2u-Ri-npm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="URL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="utS-jc-FXf">
+                                <rect key="frame" x="24" y="112" width="29" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="URL을 입력해주세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xu3-tG-Joi">
+                                <rect key="frame" x="24" y="140" width="366" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="Rv7-3v-nTZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0UO-aA-Tnk">
+                                <rect key="frame" x="24" y="190" width="67" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="코멘트를 입력해주세요." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lOM-5W-GxX">
+                                <rect key="frame" x="24" y="218" width="366" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="tpg-OZ-Rpl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="hW6-hz-HRL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lOM-5W-GxX" firstAttribute="leading" secondItem="hW6-hz-HRL" secondAttribute="leading" constant="24" id="0nu-JG-HhZ"/>
+                            <constraint firstItem="0UO-aA-Tnk" firstAttribute="leading" secondItem="hW6-hz-HRL" secondAttribute="leading" constant="24" id="2V3-pf-53e"/>
+                            <constraint firstItem="hW6-hz-HRL" firstAttribute="trailing" secondItem="lOM-5W-GxX" secondAttribute="trailing" constant="24" id="7ig-kb-oiu"/>
+                            <constraint firstItem="Xu3-tG-Joi" firstAttribute="leading" secondItem="hW6-hz-HRL" secondAttribute="leading" constant="24" id="A4d-r3-aez"/>
+                            <constraint firstItem="hW6-hz-HRL" firstAttribute="trailing" secondItem="Xu3-tG-Joi" secondAttribute="trailing" constant="24" id="SUa-Ko-2GE"/>
+                            <constraint firstItem="Xu3-tG-Joi" firstAttribute="top" secondItem="utS-jc-FXf" secondAttribute="bottom" constant="10" id="VXp-AV-rkW"/>
+                            <constraint firstItem="lOM-5W-GxX" firstAttribute="top" secondItem="0UO-aA-Tnk" secondAttribute="bottom" constant="10" id="Wo3-H1-uWO"/>
+                            <constraint firstItem="0UO-aA-Tnk" firstAttribute="top" secondItem="Xu3-tG-Joi" secondAttribute="bottom" constant="8" symbolic="YES" id="pov-RL-XvG"/>
+                            <constraint firstItem="utS-jc-FXf" firstAttribute="leading" secondItem="hW6-hz-HRL" secondAttribute="leading" constant="24" id="rbO-qp-yvS"/>
+                            <constraint firstItem="utS-jc-FXf" firstAttribute="top" secondItem="hW6-hz-HRL" secondAttribute="top" constant="24" id="sAo-hs-wOt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="작성하기" id="ecs-gV-Ogf">
+                        <barButtonItem key="backBarButtonItem" title="뒤로" id="DPV-Kf-fDL"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="exN-j5-4M5">
+                            <connections>
+                                <action selector="doneBtnClicked:" destination="jFr-lI-kCC" id="nc8-Bp-63D"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="commentTextField" destination="lOM-5W-GxX" id="3Hr-ok-7VC"/>
+                        <outlet property="urlTextField" destination="Xu3-tG-Joi" id="q6T-WW-jvo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MQh-aq-OCR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1647.826086956522" y="234.375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="geS-kV-vY7">
+            <objects>
+                <navigationController id="vhH-I5-pKz" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XEN-bZ-0k2">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Mfc-u8-0To" kind="relationship" relationship="rootViewController" id="Myl-rA-TqP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Pf-tb-WCg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="30" y="224"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

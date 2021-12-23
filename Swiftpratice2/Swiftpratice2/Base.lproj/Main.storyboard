@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swiftpratice2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s7h-42-P0x">
+                                <rect key="frame" x="20" y="73" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DTU-6c-Zsv">
+                                <rect key="frame" x="20" y="166" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="URP-JW-kKC">
+                                <rect key="frame" x="20" y="267" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hDY-Cm-w9Q">
+                                <rect key="frame" x="20" y="216" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hGc-xU-isP">
+                                <rect key="frame" x="20" y="115" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Cf-UM-6JC">
+                                <rect key="frame" x="20" y="309" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XBC-vx-iZX">
+                                <rect key="frame" x="20" y="402" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kPW-dZ-csK">
+                                <rect key="frame" x="20" y="503" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RVb-kY-xyi">
+                                <rect key="frame" x="20" y="452" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CUE-1E-csN">
+                                <rect key="frame" x="20" y="351" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ci1-vd-8JA">
+                                <rect key="frame" x="20" y="545" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="29Y-vO-9M7">
+                                <rect key="frame" x="20" y="638" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ja5-bI-ytE">
+                                <rect key="frame" x="20" y="587" width="376" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfz-Ua-fMb">
+                                <rect key="frame" x="186" y="690" width="43" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="action"/>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oa1-qh-w3p"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="textFields" destination="s7h-42-P0x" collectionClass="NSMutableArray" id="4od-Aj-Q5x"/>
+                        <outletCollection property="textFields" destination="hGc-xU-isP" collectionClass="NSMutableArray" id="I4R-bo-PpG"/>
+                        <outletCollection property="textFields" destination="DTU-6c-Zsv" collectionClass="NSMutableArray" id="s2q-y5-ex0"/>
+                        <outletCollection property="textFields" destination="hDY-Cm-w9Q" collectionClass="NSMutableArray" id="uDj-7d-8fd"/>
+                        <outletCollection property="textFields" destination="DTU-6c-Zsv" collectionClass="NSMutableArray" id="6bm-2B-Foa"/>
+                        <outletCollection property="textFields" destination="URP-JW-kKC" collectionClass="NSMutableArray" id="58J-wb-bvK"/>
+                        <outletCollection property="textFields" destination="hDY-Cm-w9Q" collectionClass="NSMutableArray" id="Irq-cE-es5"/>
+                        <outletCollection property="textFields" destination="hGc-xU-isP" collectionClass="NSMutableArray" id="dmr-Jg-UYX"/>
+                        <outletCollection property="textFields" destination="5Cf-UM-6JC" collectionClass="NSMutableArray" id="pGt-9D-ITd"/>
+                        <outletCollection property="textFields" destination="XBC-vx-iZX" collectionClass="NSMutableArray" id="uia-dx-kIf"/>
+                        <outletCollection property="textFields" destination="kPW-dZ-csK" collectionClass="NSMutableArray" id="daj-F4-nu0"/>
+                        <outletCollection property="textFields" destination="RVb-kY-xyi" collectionClass="NSMutableArray" id="nHZ-fr-zZt"/>
+                        <outletCollection property="textFields" destination="CUE-1E-csN" collectionClass="NSMutableArray" id="pEu-ZU-6Um"/>
+                        <outletCollection property="textFields" destination="Ci1-vd-8JA" collectionClass="NSMutableArray" id="WWZ-z5-p7C"/>
+                        <outletCollection property="textFields" destination="29Y-vO-9M7" collectionClass="NSMutableArray" id="FFT-AI-ytz"/>
+                        <outletCollection property="textFields" destination="ja5-bI-ytE" collectionClass="NSMutableArray" id="E4K-qa-MCx"/>
+                        <outletCollection property="textFields" destination="s7h-42-P0x" collectionClass="NSMutableArray" id="7Wn-bd-UXO"/>
+                        <outletCollection property="textFields" destination="DTU-6c-Zsv" collectionClass="NSMutableArray" id="xGU-tb-r5w"/>
+                        <outletCollection property="textFields" destination="URP-JW-kKC" collectionClass="NSMutableArray" id="i33-89-bzu"/>
+                        <outletCollection property="textFields" destination="hDY-Cm-w9Q" collectionClass="NSMutableArray" id="9Lf-F3-cdy"/>
+                        <outletCollection property="textFields" destination="hGc-xU-isP" collectionClass="NSMutableArray" id="Yki-7a-4Bh"/>
+                        <outletCollection property="textFields" destination="5Cf-UM-6JC" collectionClass="NSMutableArray" id="Nid-nK-lxo"/>
+                        <outletCollection property="textFields" destination="XBC-vx-iZX" collectionClass="NSMutableArray" id="mCv-MB-sDp"/>
+                        <outletCollection property="textFields" destination="kPW-dZ-csK" collectionClass="NSMutableArray" id="cdB-74-4aR"/>
+                        <outletCollection property="textFields" destination="RVb-kY-xyi" collectionClass="NSMutableArray" id="cu4-mA-Wdn"/>
+                        <outletCollection property="textFields" destination="CUE-1E-csN" collectionClass="NSMutableArray" id="IEz-Yh-ySq"/>
+                        <outletCollection property="textFields" destination="Ci1-vd-8JA" collectionClass="NSMutableArray" id="0ue-0i-01R"/>
+                        <outletCollection property="textFields" destination="29Y-vO-9M7" collectionClass="NSMutableArray" id="szD-RS-rbp"/>
+                        <outletCollection property="textFields" destination="ja5-bI-ytE" collectionClass="NSMutableArray" id="HHZ-NJ-RyU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="28.985507246376812" y="88.392857142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
